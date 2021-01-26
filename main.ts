@@ -30,6 +30,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let bone: Sprite = null
 let kitty: Sprite = null
 let sammy: Sprite = null
+music.playMelody("E D G F B A C5 B ", 120)
 sammy = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
